@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rekisteröitymislomake</title>
+</head>
+<body>
+    <div class="keskitys">
+        <h1>Rekisteröitymislomake</h1>
+    </div>
+    <div class="keskitys2">
+        <h3>Siirry kentästä toiseen tab-näppäimellä</h3>
+    </div>
+    <div class="container" id="container">
+        <form id="lomake">
+            <div class="label-container">
+                <p class="form-label">Käyttäjä ID:</p>
+                <p class="form-label">Salasana:</p>
+                <p class="form-label">Nimi:</p>
+                <p class="form-label">Osoite:</p>
+                <p class="form-label">Maa:</p>
+                <p class="form-label">Postinumero:</p>
+                <p class="form-label">Sähköposti:</p>
+                <p class="form-label">Sukupuoli:</p>
+                <p class="sukupuolilabel">Mies</p>
+                <p class="sukupuolilabel2">Nainen</p>
+                <p class="sukupuolilabel3">Muu</p>
+                <p class="form-label">Kieli:</p>
+                <p class="kielilabel">Suomi</p>
+                <p class="kielilabel2">Muu</p>
+                <p class="form-label">Lisätietoja:</p>
+            </div>
+            <div class="input-container">
+                <input type="text" id="kayttaja-id" class="form-field">
+                <input type="password" id="salasana" class="form-field">
+                <input type="text" id="nimi" class="form-field">
+                <input type="text" id="osoite" class="form-field">
+                <select id="maa" class="maa">
+                    <option value="FI">Suomi</option>
+                    <option value="SE">Ruotsi</option>
+                    <option value="NO">Norja</option>
+                    <option value="DE">Tanska</option>
+                    <option value="IS">Islanti</option>
+                    <option value="MISC">Muu</option>
+                </select>
+                <input type="text" id="postinumero" class="form-field">
+                <input type="text" id="sahkoposti" class="form-field">
+                <input type="checkbox" id="sukupuoli1" class="checkbox1">
+                <input type="checkbox" id="sukupuoli2" class="checkbox2">
+                <input type="checkbox" id="sukupuoli3" class="checkbox3">
+                <input type="checkbox" id="kieli1" class="checkbox4">
+                <input type="checkbox" id="kieli2" class="checkbox5">
+                <textarea id="lisatietoja" class="lisatieto"></textarea>
+            </div>
+            <div class="kayttaja-id-block">
+                <span id="kayttaja-id-block" class="block-text"></span>
+            </div>
+            <button type="submit" class="btn">Lähetä</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

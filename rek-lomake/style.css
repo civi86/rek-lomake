@@ -1,0 +1,153 @@
+.form-field{
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 570px;
+    width: 100px;
+    height: 30px;
+    margin-left: 110px;
+}
+
+.form-label{
+    display: block;
+    margin: 28px;
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    margin-left: 40.2%;
+}
+
+.label-container{
+    position: absolute;
+    display: block;
+    margin-top: -5px;
+    margin-left: -120px;
+}
+
+.input-container{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.keskitys{
+    display: flex;
+    margin-left: 40.6%;
+    margin-top: 5%;
+}
+
+.keskitys2{
+    display: flex;
+    margin-left: 40.6%;
+    margin-top: 2%;
+}
+
+.checkbox1{
+    display: inline-block;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 23px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 23px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 252px;
+    margin-top: 23px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox4{
+    display: flex;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 68px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox5{
+    display: flex;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 68px;
+    width: 20px;
+    height: 20px;
+}
+
+.sukupuolilabel{
+    position: absolute;
+    margin-left: 155px;
+    margin-top: -45px;
+}
+
+.sukupuolilabel2{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -45px;
+}
+
+.sukupuolilabel3{
+    position: absolute;
+    margin-left: 406px;
+    margin-top: -45px;
+}
+
+.kielilabel{
+    display: inline-block;
+    position: absolute;
+    margin-left: 155px;
+    margin-top: -45px;
+}
+
+.kielilabel2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -45px;
+}
+
+.lisatieto{
+    position: absolute;
+    margin-top: 115px;
+    width: 305px;
+    height: 70px;
+}
+
+.maa{
+    display: block;
+    margin-top: 20px;
+    width: 308px;
+    height: 27px;
+    text-align: center;
+}
+
+.kayttaja-id-block{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 524px;
+    width: 300px;
+}
+
+.block-text{
+    color: rgb(255, 0, 0);
+}
